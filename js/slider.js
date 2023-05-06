@@ -2,6 +2,7 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
+
 setInterval(() => {
   showSlides((slideIndex += 1));
 }, 4000);
